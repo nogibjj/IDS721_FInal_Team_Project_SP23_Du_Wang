@@ -87,6 +87,7 @@ Verify Elastic Scale-Up Performance via Load Test with Locust, Loader.io, or a s
 - One to five minute in-person class presentation
 ## Reference Project:
 -  https://github.com/noahgift/container-revolution-devops-microservices
+
 ##(Optional) Reference Videos:
 - Data Engineering with Python and AWS Lambda: https://learning.oreilly.com/videos/data-engineering-with/9780135964330
 - Building AI & ML Applications on Google Cloud Platform: https://learning.oreilly.com/videos/building-ai-applications/9780135973462
