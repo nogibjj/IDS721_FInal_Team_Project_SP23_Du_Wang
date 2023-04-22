@@ -1,6 +1,6 @@
 # IDS721_FInal_Team_Project_SP23_Du_Wang
 
-# Exploring Personal Key Indicators of Heart Disease: A Data-Driven Approach for Predictive Modeling and Insights
+## Exploring Personal Key Indicators of Heart Disease: A Data-Driven Approach for Predictive Modeling and Insights
 
 ## Team Members:
 - Beibei Du
