@@ -4,7 +4,8 @@ import numpy as np
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
-from xgboost import XGBClassifier
+# from xgboost import XGBClassifier
+# import lightgbm as lgb
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import precision_score
 
@@ -75,7 +76,32 @@ print('Accuracy of random forest classifier on test set: {:.2f}'.format(rf.score
 # takes about 1 min, the accuracy is 0.90
 
 # XGBoost
-xgb = XGBClassifier()
-xgb.fit(X_train, y_train)
-y_pred = xgb.predict(X_test)
-print('Accuracy of XGBoost classifier on test set: {:.2f}'.format(xgb.score(X_test, y_test)))
+# xgb = XGBClassifier()
+# xgb.fit(X_train, y_train)
+# y_pred = xgb.predict(X_test)
+# print('Accuracy of XGBoost classifier on test set: {:.2f}'.format(xgb.score(X_test, y_test)))
+
+# # lightgbm
+# import lightgbm as lgb
+# lgb = lgb.LGBMClassifier()
+# lgb.fit(X_train, y_train)
+# y_pred = lgb.predict(X_test)
+# print('Accuracy of lightgbm classifier on test set: {:.2f}'.format(lgb.score(X_test, y_test)))
+
+# ensemble model
+from sklearn.ensemble import VotingClassifier
+estimators = [('logreg', logreg), ('rf', rf)]
+ensemble = VotingClassifier(estimators, voting='hard')
+ensemble.fit(X_train, y_train)
+y_pred = ensemble.predict(X_test)
+print('Accuracy of ensemble classifier on test set: {:.2f}'.format(ensemble.score(X_test, y_test)))
+# Accuracy of ensemble classifier on test set: 0.92
+# takes about 46s to run
+
+# save the model
+# import pickle
+# pickle.dump(ensemble, open('/workspaces/IDS721_FInal_Team_Project_SP23_Du_Wang/10_code/ensemble_model.sav', 'wb'))
+
+# # load the model
+# loaded_model = pickle.load(open('/workspaces/IDS721_FInal_Team_Project_SP23_Du_Wang/10_code/ensemble_model.sav', 'rb'))
+
