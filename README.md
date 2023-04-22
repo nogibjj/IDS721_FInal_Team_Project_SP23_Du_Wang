@@ -18,6 +18,7 @@ For example, predictive models can be developed to identify patients who are at 
 <img width="1111" alt="Screen Shot 2023-04-21 at 10 11 32 PM" src="https://user-images.githubusercontent.com/60382493/233756426-c51af939-b882-47b0-b0f0-179a0c219fe3.png">
 
 
+
 ## Dataset
 ### Personal Key Indicators of Heart Disease Dataset
 This dataset contains information about personal key indicators of heart disease for patients who were tested in a cardiology clinic. The data includes demographic information, health indicators such as blood pressure and cholesterol levels, and whether or not the patient has heart disease. The Personal Key Indicators of Heart Disease dataset is a valuable resource for studying the relationship between various personal health indicators and the occurrence of heart disease. This dataset can help researchers develop predictive models that can be used to identify patients who are at a higher risk of developing heart disease based on their personal health indicators.
@@ -57,6 +58,9 @@ The dataset contains the following columns:
 6. Train and evaluate predictive models on the training data. (Logistic Regression, Random Forest, Ensemble Learning, etc).
 7. Test the best-performing models on the testing data to evaluate their performance. (Measuring Metrics)
 8. Interpret the results and draw conclusions about the relationship between personal key indicators and heart disease.
+
+## Modeling
+<img width="978" alt="Screen Shot 2023-04-21 at 10 39 22 PM" src="https://user-images.githubusercontent.com/60382493/233757694-76967928-19e5-4f88-8798-0c7c339f9c64.png">
 
 ## References
 [1] Mc Namara K, Alzubaidi H, Jackson JK. Cardiovascular disease as a leading cause of death: how are pharmacists getting involved? Integr Pharm Res Pract. 2019 Feb 4;8:1-11. doi: 10.2147/IPRP.S133088. PMID: 30788283; PMCID: PMC6366352.
