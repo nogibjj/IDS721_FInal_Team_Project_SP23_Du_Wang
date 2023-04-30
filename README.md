@@ -59,6 +59,10 @@ The dataset contains the following columns:
 7. Test the best-performing models on the testing data to evaluate their performance. (Measuring Metrics)
 8. Interpret the results and draw conclusions about the relationship between personal key indicators and heart disease.
 
+## Cloud Deployment
+- AWS
+
+
 ## Modeling
 <img width="978" alt="Screen Shot 2023-04-21 at 10 39 22 PM" src="https://user-images.githubusercontent.com/60382493/233757694-76967928-19e5-4f88-8798-0c7c339f9c64.png">
 
