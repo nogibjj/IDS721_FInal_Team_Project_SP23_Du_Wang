@@ -52,13 +52,18 @@ The dataset contains the following columns:
 
 
 ## Pre-step Setup 
-To set up the application on your local machine, follow these steps:
+To set up the application on your codespace, follow these steps:
 
-Clone the repository to your local machine using git clone https://github.com/your-repository.git.
+Clone the repository to your codespace using git clone https://github.com/your-repository.git.
+
 Create a virtual environment for the project using python -m venv venv.
+
 Activate the virtual environment using source venv/bin/activate on Linux or venv\Scripts\activate on Windows.
+
 Install the required dependencies using pip install -r requirements.txt.
+
 Set up the environment variables for the application by creating a .env file in the root directory of the project and adding the variables
+
 
 ## Steps
 
