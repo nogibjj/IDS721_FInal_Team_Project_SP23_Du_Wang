@@ -72,6 +72,13 @@ The dataset contains the following columns:
 <img width="523" alt="Screen Shot 2023-04-30 at 11 17 30 PM" src="https://user-images.githubusercontent.com/60382493/235396945-094c6bd0-f3b0-442e-88d9-814fad9f1105.png">
 <img width="1575" alt="Screen Shot 2023-04-30 at 11 17 49 PM" src="https://user-images.githubusercontent.com/60382493/235397056-dbf29889-e80d-497b-b164-29b0166394be.png">
 
+- Code of Deployment
+<img width="1083" alt="Screen Shot 2023-05-01 at 3 30 28 AM" src="https://user-images.githubusercontent.com/60382493/235423090-6ffe4839-3bc5-4a73-8aff-9cb1efc36987.png">
+
+<img width="907" alt="Screen Shot 2023-05-01 at 3 31 06 AM" src="https://user-images.githubusercontent.com/60382493/235423165-3097c7c1-b140-4dec-856b-a0e4fc9b7286.png">
+
+<img width="750" alt="Screen Shot 2023-05-01 at 3 31 52 AM" src="https://user-images.githubusercontent.com/60382493/235423259-4e78944a-9531-46e6-b8d7-f1cc5abb4635.png">
+
 ## Modeling
 <img width="978" alt="Screen Shot 2023-04-21 at 10 39 22 PM" src="https://user-images.githubusercontent.com/60382493/233757694-76967928-19e5-4f88-8798-0c7c339f9c64.png">
 
