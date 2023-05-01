@@ -50,6 +50,27 @@ The dataset contains the following columns:
 #### Preview of the head of the dataset from AWS SageMaker Studio
 <img width="1354" alt="Screen Shot 2023-04-30 at 11 31 47 PM" src="https://user-images.githubusercontent.com/60382493/235401020-340eef0d-d03f-4844-bc6a-70b0adebb25a.png">
 
+Key Features
+User authentication: Users can create an account and log in to the application using their email and password. This ensures that their to-do lists are kept private and secure.
+
+Create new to-do lists: Users can create new to-do lists with a title and description.
+
+Add and remove items: Users can add new items to their to-do lists and remove them when they are completed or no longer necessary.
+
+Mark items as completed: Users can mark items as completed once they have been finished.
+
+View all to-do lists: Users can view all their to-do lists on one page.
+
+Search and filter: Users can search for specific to-do lists or filter by the status of the items on their lists.
+
+Setup
+To set up the application on your local machine, follow these steps:
+
+Clone the repository to your local machine using git clone https://github.com/your-repository.git.
+Create a virtual environment for the project using python -m venv venv.
+Activate the virtual environment using source venv/bin/activate on Linux or venv\Scripts\activate on Windows.
+Install the required dependencies using pip install -r requirements.txt.
+Set up the environment variables for the application by creating a .env file in the root directory of the project and adding the variables
 
 ## Steps
 
