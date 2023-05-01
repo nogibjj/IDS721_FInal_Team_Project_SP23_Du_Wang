@@ -61,6 +61,7 @@ The dataset contains the following columns:
 
 ## Cloud Deployment
 - AWS
+1. AWS SageMaker
 
 
 ## Modeling
