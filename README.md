@@ -64,7 +64,7 @@ The dataset contains the following columns:
 
 ## Cloud Deployment
 - AWS
-1. AWS S3
+1. AWS S3 bucket
 2. AWS SageMaker
 - Create a AWS SageMaker Studio Notebook. The interface should look like below
 <img width="1386" alt="Screen Shot 2023-04-30 at 11 16 46 PM" src="https://user-images.githubusercontent.com/60382493/235396755-3e3152d4-33fa-4637-836e-69349f225b3f.png">
