@@ -47,6 +47,9 @@ The dataset contains the following columns:
 - `thal`: Thalassemia type (3 = normal, 6 = fixed defect, 7 = reversable defect)
 - `heart_disease`: Whether or not the patient has heart disease (1 = yes, 0 = no)
 
+#### Preview of the head of the dataset from AWS SageMaker Studio
+<img width="1354" alt="Screen Shot 2023-04-30 at 11 31 47 PM" src="https://user-images.githubusercontent.com/60382493/235401020-340eef0d-d03f-4844-bc6a-70b0adebb25a.png">
+
 
 ## Steps
 
@@ -61,8 +64,13 @@ The dataset contains the following columns:
 
 ## Cloud Deployment
 - AWS
-1. AWS SageMaker
+1. AWS S3
+2. AWS SageMaker
+- Create a AWS SageMaker Studio Notebook. The interface should look like below
+<img width="1386" alt="Screen Shot 2023-04-30 at 11 16 46 PM" src="https://user-images.githubusercontent.com/60382493/235396755-3e3152d4-33fa-4637-836e-69349f225b3f.png">
 
+<img width="523" alt="Screen Shot 2023-04-30 at 11 17 30 PM" src="https://user-images.githubusercontent.com/60382493/235396945-094c6bd0-f3b0-442e-88d9-814fad9f1105.png">
+<img width="1575" alt="Screen Shot 2023-04-30 at 11 17 49 PM" src="https://user-images.githubusercontent.com/60382493/235397056-dbf29889-e80d-497b-b164-29b0166394be.png">
 
 ## Modeling
 <img width="978" alt="Screen Shot 2023-04-21 at 10 39 22 PM" src="https://user-images.githubusercontent.com/60382493/233757694-76967928-19e5-4f88-8798-0c7c339f9c64.png">
