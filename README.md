@@ -47,6 +47,9 @@ The dataset contains the following columns:
 - `thal`: Thalassemia type (3 = normal, 6 = fixed defect, 7 = reversable defect)
 - `heart_disease`: Whether or not the patient has heart disease (1 = yes, 0 = no)
 
+#### Preview of the head of the dataset from AWS SageMaker Studio
+<img width="1354" alt="Screen Shot 2023-04-30 at 11 31 47 PM" src="https://user-images.githubusercontent.com/60382493/235401020-340eef0d-d03f-4844-bc6a-70b0adebb25a.png">
+
 
 ## Steps
 
